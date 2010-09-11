@@ -1,0 +1,2 @@
+Reproduction case for an issue with eventlet.db_pool.ConnectionPool I've been
+seeing within Spawning with --threads=0
