@@ -1,2 +1,12 @@
 Reproduction case for an issue with eventlet.db_pool.ConnectionPool I've been
 seeing within Spawning with --threads=0
+
+
+Functional case:
+
+    # python server.py
+
+Non-functional case:
+
+    # spawning --threads=0 --processes=1 server.handler
+
